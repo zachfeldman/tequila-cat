@@ -1,0 +1,337 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:700';
+
+body{
+  background-color: rgb(40,40,40);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+  max-width: 960px;
+  margin: 36px auto;
+  text-align: center;
+}
+
+h1{
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 6px solid white;
+  width: 350px;
+  margin: 12px auto;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.home h1:hover{
+  color: red;
+}
+
+.insta-slider{
+  max-width: 300px;
+  margin: 0 auto;
+  display: block; 
+  text-align: center;
+  padding: 36px;
+}
+
+.insta-slider .caption{
+  margin-top: 12px;
+  font-weight: 300;
+
+}
+
+video.instagram, img.instagram{
+  width: 300px !important;
+  height: auto !important;
+}
+
+img{
+  border: 6px solid black;
+}
+
+.social{
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social .fa{
+  margin: 20px 36px;
+  margin-bottom: 0;
+  color: white;
+  font-size: 4em;
+}
+
+.social .fa:hover{
+  transition: color 0.5s ease;
+  color: red;
+}
+
+.insta-slider .slide{
+  display: none;
+}
+
+.bio{
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 100;
+  line-height: 1.75em;
+  display: none;
+}
+
+.bio p{
+  width: 350px !important;
+}
+
+
+/* Push */
+@-webkit-keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.hvr-push {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-push:hover, .hvr-push:focus, .hvr-push:active {
+  -webkit-animation-name: hvr-push;
+  animation-name: hvr-push;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+a{
+  color: rgb(128, 188, 163);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+h1 a, h1 a:visited{
+  color: red;
+}
+
+.speaking{
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 36px;
+  padding-left: 0;
+}
+
+.speaking h2{
+  margin-bottom: .5em;
+}
+
+.speaking li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.speaking li a{
+  font-weight: 300;
+}
+
+.center{
+  width: 350px;
+  margin: 0 auto;
+}
+
+a.exciting-btn{
+  text-align: center;
+}
+
+.exciting-container{
+  margin-top: 22px;
+}
+
+.myButton {
+  -moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+  box-shadow:inset 0px 1px 0px 0px #cf866c;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #bc3315));
+  background:-moz-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background:-webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background:-o-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background:-ms-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#bc3315',GradientType=0);
+  background-color:#d0451b;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+  border:1px solid #942911;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #854629;
+}
+.myButton:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
+  background:-moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background:-webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background:-o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background:-ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
+  background-color:#bc3315;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+
+
+.icons{
+  width: 690px;
+  margin: 0 auto;
+}
+
+.icons .icon a{
+  width: 150px;
+  height: 100px;
+  border: 4px solid white;
+  text-align: center;
+  display: block;
+  margin: 24px;
+  padding: 12px;
+  float: left;
+}
+
+.fa{
+  margin: 6px 36px;
+  margin-bottom: 4px;
+  color: white;
+  font-size: 4em;
+}
+
+.clear{
+  clear: both;
+}
+
+
+.center-ig{
+  padding-top: 48px;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.ig-photo{
+  float: left;
+  width: 225px;
+  margin-right: 12px;
+}
+
+.last-ig-photo{
+  margin-right: 0;
+}
+
+
+.projects h3{
+  font-size: 1.4em;
+}
+
+p{
+  width: 450px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.9em;
+  font-size: 1.15em
+}
+
+.float-parent{
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+.float-left{
+  float: left;
+  margin-right: 38px;
+}
+
+
+@media (max-width: 600px) {
+  img{
+    width: 100%;
+  }
+  .icons {
+    width: 90%;
+  }
+  .icons .icon{
+    text-align: center;
+    display: inline-block;
+  }
+  .wrapper{
+    width: 90%;
+  }
+  p{
+    width: 90%;
+  }
+  h1{
+    font-size: 2.2em;
+    width: initial;
+  }
+  .title{
+    width: 275px;
+    margin: 0 auto;
+  }
+  .float-parent{
+    width: initial;
+  }
+  .ig-photo{
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+  .center-ig{
+    width: initial;
+  }
+  .last-ig-photo{
+    margin-right: inherit;
+  }
+  .yt-video{
+    width: 90%;
+  }
+}
+
+.pet-button{
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 3em;
+  cursor: pointer;
+}
